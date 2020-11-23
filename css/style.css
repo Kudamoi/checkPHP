@@ -1,0 +1,44 @@
+body {
+	background: #e0e0e0;
+}
+.center {
+	position: absolute;
+    margin: 20px auto;
+	padding: 15px;
+    left: 0;
+    right: 0;
+    width: 50%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+}
+.center fieldset {
+	border: none;
+}
+.center input[type="submit"], .center input[type="reset"] {
+	height: 30px;
+	width: 45%;
+    margin: 30 auto;
+	background: #e0e0e0;
+}
+.center input[type="text"] {
+	width: 50%;
+	height: 27px;
+    padding: 0 10px;
+}
+.center .buttons {
+	display: flex;
+}
+.center textarea {
+	width: 75%;
+}
+sup {
+	color: red;
+}
+span {
+	font-size: 12px;
+}
+p {
+	font-size: 16px;
+	font-weight: bold;
+}

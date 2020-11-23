@@ -1,0 +1,49 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="center">
+	<h1>Форма обратной связи</h1>
+	<form action="/mail.php">
+	<h3>Введите свои данные в соответствии с полями</h3>
+	<span><sup>*</sup> - поля обозначенные этим знаком, обязательны для заполнения</span>
+		<fieldset>
+		<p><sup>*</sup> Ваше имя:</p>
+		<input type="text" name="name" placeholder="Владимир" required>
+		<p><sup>*</sup> Ваш телефон:</p>
+		<input type="text" name="telephone" placeholder="8 999 999 99 99" required>
+		<p>Ваш Email:</p>
+		<input type="text" name="email" placeholder="email@mail.ru">
+		<p><sup>*</sup> Сопроводительное сообщение:</p>
+		<textarea rows="10" cols="45" name="message" required></textarea>
+		<div class="buttons">
+			<input type="reset" value="Очистить форму">
+			<input type="submit" value="Отправить сообщение">
+		</div>
+		</fieldset>
+	</form>
+	</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
